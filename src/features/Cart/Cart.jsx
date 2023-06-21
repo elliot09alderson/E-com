@@ -51,7 +51,7 @@ export default function Cart() {
 
     <div className="mt-8 border-top border-gray-200 px-4 py-6 sm:px-6">
       <h1 className='text-4xl my-12 font-bold tracking-tight  text-gray-900'>
-      All Products
+     Cart
       </h1>
                       <div className="flow-root">
                         <ul role="list" className="-my-6 divide-y divide-gray-200">
@@ -123,12 +123,12 @@ export default function Cart() {
                   </div>
                   <div className="mt-6 flex justify-center text-center text-sm text-gray-500">
                     <p>
-                      or
+                      or {'   '}
                       <Link to={'/'}>
 
                       <button
                         type="button"
-                        className="font-medium text-indigo-600 hover:text-indigo-500"
+                        className="font-medium text-indigo-600 mx-1 hover:text-indigo-500"
                         onClick={() => setOpen(false)}
                         >
                         Continue Shopping
